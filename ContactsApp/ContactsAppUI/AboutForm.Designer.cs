@@ -107,7 +107,7 @@ namespace ContactsAppUI
             this.linkLabel2.Size = new System.Drawing.Size(190, 13);
             this.linkLabel2.TabIndex = 7;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "github.com/Farrukh5588/ContactsApp";
+            this.linkLabel2.Text = "github.com/siaka004/ContactsApp";
             // 
             // label6
             // 
@@ -117,7 +117,7 @@ namespace ContactsAppUI
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(124, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "2021  Rakhimov Farrukh";
+            this.label6.Text = "2021  Traore siaka";
             // 
             // AboutForm
             // 
