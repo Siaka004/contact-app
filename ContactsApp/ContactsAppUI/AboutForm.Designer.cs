@@ -67,7 +67,7 @@ namespace ContactsAppUI
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Author: Rakhimov Farrukh";
+            this.label3.Text = "Author: traore siaka";
             // 
             // linkLabel1
             // 
@@ -77,7 +77,7 @@ namespace ContactsAppUI
             this.linkLabel1.Size = new System.Drawing.Size(170, 13);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "@farruhrakhimov2001@gmail.com";
+            this.linkLabel1.Text = "siaka004@gmail.com";
             // 
             // label5
             // 
