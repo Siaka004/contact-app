@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\contact app en cour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\contact app en cour.Designer.cs">
+      <DependentUpon>contact app en cour.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContactForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,22 +73,16 @@
     <Compile Include="AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\..\..\contact app en cour.resx">
+      <DependentUpon>contact app en cour.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContactForm.resx">
       <DependentUpon>ContactForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -134,7 +134,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact_book_32x32.ico" />
+    <Content Include="Resources\adddd.png" />
+    <None Include="Resources\suprimer1.png" />
+    <None Include="Resources\adddd1.png" />
+    <Content Include="Resources\birthday_5027.png" />
+    <None Include="Resources\ecrire1.png" />
+    <None Include="Resources\birthday_50272.png" />
+    <Content Include="Resources\suprimer.png" />
+    <None Include="Resources\birthday_50271.png" />
     <Content Include="Resources\contact_book_contacts_notebook_icon_124667.ico" />
+    <Content Include="Resources\ecrire.png" />
+    <Content Include="Resources\icons8-address-book-2-50 - Copy.png" />
+    <Content Include="Resources\icons8-address-book-2-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

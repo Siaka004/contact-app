@@ -15,12 +15,12 @@ namespace ContactsApp.UnitTest
             };
             var contact = new Contact
             {
-                Name = "Ivan",
-                Surname = "Ivanov",
-                DateOfBirth = new DateTime(2000,1,1),
+                Name = "Traore",
+                Surname = "Soumaila",
+                DateOfBirth = new DateTime(1993,1,1),
                 PhoneNumber = phoneNumber,
-                Email = "ivanov@bk.com",
-                IdVk = "226665"
+                Email = "Soumaila@gamil.com",
+                IdVk = "0022506"
             };
             return contact;
         }
@@ -30,7 +30,7 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            var sourceName = "Farrukh";
+            var sourceName = "Traore";
             var expectedName = sourceName;
 
             //Act
@@ -46,8 +46,8 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            const string sourceName = "farrukh";
-            const string expectedName = "Farrukh";
+            const string sourceName = "Traore";
+            const string expectedName = "Traore";
 
             //Act
             contact.Name = sourceName;
@@ -100,7 +100,7 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            var sourceSurname = "Rakhimov";
+            var sourceSurname = "Traore";
             var expectedSurname = sourceSurname;
 
             //Act
@@ -116,8 +116,8 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            const string sourceSurname = "rakhimov";
-            const string expectedSurname = "Rakhimov";
+            const string sourceSurname = "Traore";
+            const string expectedSurname = "Traore";
 
             //Act
             contact.Surname = sourceSurname;
@@ -170,7 +170,7 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            var sourceEmail = "Rakhimov@gmail.com";
+            var sourceEmail = "siaka004@gmail.com";
             var expectedEmail = sourceEmail;
 
             //Act
@@ -186,7 +186,7 @@ namespace ContactsApp.UnitTest
         {
             //Setup
             var contact = new Contact();
-            var sourceEmail = "RakhimovRakhimovRakhimovRakhimovRakhimov1@gmail.com";
+            var sourceEmail = "TraoreTraoreTraoreTraoreTraore@gmail.com";
 
             //Assert
             Assert.Throws<ArgumentException>

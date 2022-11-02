@@ -9,7 +9,7 @@ namespace ContactsApp.UnitTest
         public void Test_PhoneNumber_CorrectPhoneNumber_ReturnsSamePhoneNumber()
         {
             //Setup
-            var sourcePhoneNumber = 79998889988;
+            var sourcePhoneNumber = 79293749789;
             var phoneNumber = new PhoneNumber();
             var expectedPhoneNumber = sourcePhoneNumber;
 
